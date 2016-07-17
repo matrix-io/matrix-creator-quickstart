@@ -2,4 +2,4 @@
 
 [Please check our wiki](https://github.com/matrix-io/matrix-creator-quickstart/wiki).
 
-Questions? Post them on [http://raspberrypi.stackexchange.com](raspberrypi.stackexchange.com)! Use the tag #matrix-creator
+Questions? Post them on [raspberrypi.stackexchange.com](http://raspberrypi.stackexchange.com)! Use the tag #matrix-creator
