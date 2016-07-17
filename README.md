@@ -1,2 +1,3 @@
-# matrix-creator-quickstart-
-MATRIX Creator Quickstart - How to get started with the MATRIX Creator.
+# MATRIX Creator Quickstart
+
+[Please check our wiki](https://github.com/matrix-io/matrix-creator-quickstart/wik).
