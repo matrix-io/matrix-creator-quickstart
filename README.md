@@ -1,6 +1,7 @@
-# MATRIX Creator Quickstart
+## MATRIX Creator Quickstart
 
-[Please check our wiki](https://github.com/matrix-io/matrix-creator-quickstart/wiki/1.-Home).
-We're constantly updating it on a daily basis, so please stay tuned!
+Please check our [Full Documentation and Guides](https://creator.matrix.one/#/develop/start).
 
-Questions? Post them on [raspberrypi.stackexchange.com](http://raspberrypi.stackexchange.com)! Use the tag #matrix-creator
+## Support
+* Post questions or comments on [community.matrix.one](http://community.matrix.one/)
+* Post package issues on github under [matrix-io](https://github.com/matrix-io)
