@@ -6,7 +6,7 @@ sudo apt-get upgrade;
 sudo apt-get -y install libzmq3-dev xc3sprog malos-eye matrix-creator-malos matrix-creator-openocd wiringpi matrix-creator-init cmake g++ git;
 
 # Install npm (doesn't really matter what version, apt-get node is v0.10...)
-sudo apt-get install npm
+sudo apt-get -y install npm
 
 # n is a node version manager
 sudo npm install -g n
