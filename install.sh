@@ -12,7 +12,7 @@ sudo apt-get -y install npm
 sudo npm install -g n
 
 # node 6.5 is the latest target node version, also installs new npm
-n 6.5
+sudo n 6.5
 
 # install matrix os
 git clone https://github.com/matrix-io/matrix-os.git;
