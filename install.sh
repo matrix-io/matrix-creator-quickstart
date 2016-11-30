@@ -4,6 +4,7 @@ echo '\n\n'
 echo '---------------------------------'
 echo 'Installing MATRIX Dependencies...'
 echo '---------------------------------'
+echo '\n'
 echo "deb http://packages.matrix.one/matrix-creator/ ./" | sudo tee --append /etc/apt/sources.list;
 sudo apt-get update;
 sudo apt-get upgrade;
@@ -23,11 +24,17 @@ echo '\n\n'
 echo '---------------------------------'
 echo 'Installing MATRIX API Services...'
 echo '---------------------------------'
+echo '\n'
 git clone https://github.com/matrix-io/matrix-os.git;
 cd matrix-os;
 git submodule update --init;
 npm install;
 
 # Reboot!
-echo 'Rebooting. Please reconnect to your Raspberry Pi.'
+echo '\n\n'
+echo '---------------------------------'
+echo 'Rebooting... Please re-connect to'
+echo ' your Raspberry Pi in a minute.  '
+echo '---------------------------------'
+echo '\n'
 sudo reboot;
