@@ -18,10 +18,10 @@ sudo apt-get -y install xc3sprog malos-eye matrix-creator-malos matrix-creator-o
 sudo apt-get -y install npm;
 
 # n is a node version manager
-sudo npm install -g n
+sudo npm install -g n;
 
 # node 6.5 is the latest target node version, also installs new npm
-sudo n
+sudo n;
 
 # install matrix os
 echo '\n\n'
@@ -33,6 +33,8 @@ git clone https://github.com/matrix-io/matrix-os.git;
 cd matrix-os;
 git submodule update --init;
 npm install;
+
+npm rebuild;
 
 # Reboot!
 echo '\n\n'
