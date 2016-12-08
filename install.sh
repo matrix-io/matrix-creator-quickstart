@@ -11,16 +11,17 @@ sudo apt-get upgrade;
 sudo apt-get -y install git;
 sudo apt-get -y install libzmq3-dev;
 
+sudo apt-get -y install g++;
 sudo apt-get -y install xc3sprog malos-eye matrix-creator-malos matrix-creator-openocd wiringpi matrix-creator-init cmake g++;
 
 # Install npm (doesn't really matter what version, apt-get node is v0.10...)
-sudo apt-get -y install npm
+sudo apt-get -y install npm;
 
 # n is a node version manager
 sudo npm install -g n
 
 # node 6.5 is the latest target node version, also installs new npm
-sudo n 6.5
+sudo n
 
 # install matrix os
 echo '\n\n'
