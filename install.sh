@@ -12,7 +12,10 @@ sudo apt-get -y install git;
 sudo apt-get -y install libzmq3-dev;
 
 sudo apt-get -y install g++;
-sudo apt-get -y install xc3sprog malos-eye matrix-creator-malos matrix-creator-openocd wiringpi matrix-creator-init cmake g++;
+sudo apt-get -y install xc3sprog wiringpi cmake;
+
+# creator code needs force until it can be authenticated
+sudo apt-get -y --force-yes install malos-eye matrix-creator-malos matrix-creator-openocd matrix-creator-init;
 
 # Install npm (doesn't really matter what version, apt-get node is v0.10...)
 sudo apt-get -y install npm;
