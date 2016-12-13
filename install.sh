@@ -23,8 +23,8 @@ sudo apt-get -y install npm;
 # n is a node version manager
 sudo npm install -g n;
 
-# node 6.5 is the latest target node version, also installs new npm
-sudo n;
+# node 6.7 is the latest target node version, also installs new npm
+sudo n 6.7.0;
 
 # install matrix os
 echo '\n\n'
