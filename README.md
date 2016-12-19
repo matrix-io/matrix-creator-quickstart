@@ -1,6 +1,6 @@
 ## MATRIX Creator Quickstart
 
-Please check our [Full Documentation and Guides](https://creator.matrix.one/#/develop/start).
+Please check our [Full Documentation and Guides](https://creator.matrix.one/#!/develop/start).
 
 ## Support
 * Post questions or comments on [community.matrix.one](http://community.matrix.one/)
