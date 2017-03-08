@@ -14,6 +14,9 @@ sudo apt-get -y install libzmq3-dev;
 sudo apt-get -y install g++;
 sudo apt-get -y install xc3sprog wiringpi cmake;
 
+# bluetooth
+sudo apt-get -y install libudev-dev bluetooth bluez blueman libusb-1.0-0-dev;
+
 # creator code needs force until it can be authenticated
 sudo apt-get -y --force-yes install malos-eye matrix-creator-malos matrix-creator-openocd matrix-creator-init;
 
