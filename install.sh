@@ -17,6 +17,9 @@ sudo apt-get -y install xc3sprog wiringpi cmake;
 # bluetooth
 sudo apt-get -y install libudev-dev bluetooth bluez blueman libusb-1.0-0-dev;
 
+# auth bluetooth for node
+sudo setcap cap_net_raw+eip $(eval readlink -f 'which node');
+
 # creator code needs force until it can be authenticated
 sudo apt-get -y --force-yes install malos-eye matrix-creator-malos matrix-creator-openocd matrix-creator-init;
 
