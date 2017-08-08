@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # setup & installation
 echo '\n\n'
 echo '---------------------------------'
