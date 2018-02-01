@@ -17,8 +17,7 @@ sudo apt-get -y install libzmq3-dev;
 
 # creator code needs force until it can be authenticated
 sudo apt-get -y --force-yes install matrixio-malos \
-	matrixio-malos-wakeword \
-	matrixio-malos-zigbee
+	matrixio-malos-wakeword
 
 echo '\n\n'
 echo '---------------------------------'
