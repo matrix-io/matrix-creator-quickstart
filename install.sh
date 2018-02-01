@@ -4,15 +4,16 @@ echo '\n\n'
 echo '---------------------------------'
 echo 'Installing MATRIX Dependencies...'
 echo '---------------------------------'
-echo '\n'
-echo "deb http://packages.matrix.one/matrix-creator/ ./" | sudo tee --append /etc/apt/sources.list;
-sudo apt-get update;
-sudo apt-get upgrade;
-sudo apt-get -y install git;
-sudo apt-get -y install libzmq3-dev;
 
-sudo apt-get -y install g++;
-sudo apt-get -y install xc3sprog wiringpi cmake;
+curl https://apt.matrix.one/doc/apt-key.gpg | sudo apt-key add -
+echo "deb https://apt.matrix.one/raspbian $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/matrixlabs.list
+
+# Update packages and install
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get -y install git cmake g++;
+sudo apt-get -y install libzmq3-dev;
 
 # bluetooth
 sudo apt-get -y install libudev-dev bluetooth bluez blueman libusb-1.0-0-dev;
@@ -21,7 +22,10 @@ sudo apt-get -y install libudev-dev bluetooth bluez blueman libusb-1.0-0-dev;
 sudo setcap cap_net_raw+eip $(eval readlink -f `which node`);
 
 # creator code needs force until it can be authenticated
-sudo apt-get -y --force-yes install malos-eye matrix-creator-malos matrix-creator-openocd matrix-creator-init;
+#sudo apt-get -y --force-yes install malos-eye
+sudo apt-get -y --force-yes install matrixio-malos \
+	matrixio-malos-wakeword \
+	matrixio-malos-zigbee
 
 # Install npm (doesn't really matter what version, apt-get node is v0.10...)
 sudo apt-get -y install npm;
